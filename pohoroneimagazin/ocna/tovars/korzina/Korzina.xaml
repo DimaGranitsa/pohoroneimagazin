@@ -1,0 +1,106 @@
+﻿<Page x:Class="pohoroneimagazin.ocna.tovars.korzina.Korzina"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pohoroneimagazin.ocna.tovars.korzina"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Korzina">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50">
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80">
+            </RowDefinition>
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="nazvanie" Grid.Column="0" Grid.Row="0" Background="#FF32FD13">
+            
+        </StackPanel>
+        <StackPanel x:Name="udalenie" Grid.Column="1" Grid.Row="0" Background="White">
+            <TextBlock  Width="230" FontSize="60" Background="White">
+          Корзина
+
+            </TextBlock>
+        </StackPanel>
+      
+        <Grid x:Name="meny" Grid.Column="2" Grid.Row="2" Background="Gray">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition >
+                </RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+                <RowDefinition >
+                </RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition >
+                </ColumnDefinition>
+                <ColumnDefinition>
+                </ColumnDefinition>
+                <ColumnDefinition>
+                </ColumnDefinition>
+                <ColumnDefinition>
+                </ColumnDefinition>
+               
+                
+
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Row="4" Grid.Column="4">
+                <Grid.RowDefinitions>
+                   
+                    <RowDefinition>
+                    </RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                   
+                   
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+
+
+
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="3" Grid.Column="3"  x:Name="oplata1Button" Content="Оплата"  IsDefault="True" Height="40" Width="65" Margin="1 " HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="oplata1Button_Click" ></Button>
+                <TextBlock VerticalAlignment="Bottom" Grid.Column="0"  Background="White" FontSize="30">
+                    0
+                </TextBlock>
+            </Grid>
+            
+        </Grid>
+        <Grid x:Name="удаление" Grid.Column="0" Grid.Row="1" Background="White">
+            <Grid.RowDefinitions>
+            <RowDefinition >
+            </RowDefinition>
+            <RowDefinition>
+            </RowDefinition>
+            <RowDefinition >
+            </RowDefinition>
+            <RowDefinition>
+            </RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel x:Name="удаление2" Grid.Column="0" Grid.Row="1" Background="White">
+               </StackPanel> 
+            <Button  Grid.Row="0" x:Name="удалить1Button" Content="удалить"  IsDefault="True" Height="40" Margin="1" ></Button>
+            <Button  Grid.Row="1" x:Name="удалить2Button" Content="удалить"  IsDefault="True" Height="40" Margin="1" ></Button>
+            <Button  Grid.Row="2" x:Name="удалить3Button" Content="удалить"  IsDefault="True" Height="40" Margin="1" ></Button>
+            <Button  Grid.Row="3" x:Name="удалить4Button" Content="удалить"  IsDefault="True" Height="40" Margin="1" ></Button>
+             
+        </Grid>
+    </Grid>
+   
+    
+</Page>

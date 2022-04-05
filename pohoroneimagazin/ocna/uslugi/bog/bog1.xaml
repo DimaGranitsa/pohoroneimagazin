@@ -1,0 +1,102 @@
+﻿<Page x:Class="pohoroneimagazin.ocna.uslugi.bog.bog1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pohoroneimagazin.ocna.uslugi.bog"
+      mc:Ignorable="d" 
+          d:DesignHeight="820" d:DesignWidth="1300"
+      Title="bog1">
+
+    <Grid Background="White">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="450">
+
+                </ColumnDefinition>
+                <ColumnDefinition>
+
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.ColumnSpan="2">
+
+                <TextBlock  Width="820" Height="70" FontSize="50" Background="White" >
+         Услуги священнослужителя
+                </TextBlock>
+
+            </Grid>
+            <Grid Grid.Row="1" Margin="20" Height="600">
+
+                <Image Width="400" Height="600"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\pogrebenie.jpg"  
+                                    
+                                    />
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1">
+               
+               
+                <Grid.RowDefinitions>
+                    <RowDefinition ></RowDefinition>
+                    
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBlock   FontSize="24" Background="White" >
+         Ритуальный салон "Memoria" поможет 
+                        Вам в погребении умершего.
+                        <LineBreak />
+                        аши специалисты помогут Вам с решением 
+                        вопросов о месте на кладбище,
+                        <LineBreak />
+                        копания могилы, захоронения,
+                        установкой креста, памятника и ограды. 
+                        <LineBreak />
+                        случае необходимости поможем
+                        пригласить священнослужителя для
+                   <LineBreak />
+                   чтения молитвы.
+                    
+
+                    </TextBlock>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <TextBlock   FontSize="24" Background="White" >
+        В ритуальном салоне "Memoria"
+                         
+                        Вы всегда можете приобрести
+                        <LineBreak />
+                        ритуальные принадлежности: гробы, венки,
+                         <LineBreak />
+                        ритуальную одежду, кресты,
+                        
+                       таблички, памятники из гранита или 
+                         <LineBreak />
+                        мрамора, ограды, трурные ленты.
+                       
+                       Вы можете заказать в нашем салоне 
+                         <LineBreak />
+                        специализированный
+                        транспорт для
+                        
+                        перевозки тела умершего (катафалк), 
+                         <LineBreak />
+                         а также автобус для перевозки
+                       
+                        родных и близких.
+                  
+                    </TextBlock>
+
+                </Grid>
+               
+            </Grid> 
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Button Grid.Column="0" Grid.Row="1"  VerticalAlignment="Bottom" x:Name="dobavitvcorzonu1Button" Content="добавить в корзину"  IsDefault="True" Height="50" Width="400" Margin="1" HorizontalAlignment="Right" ></Button>
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

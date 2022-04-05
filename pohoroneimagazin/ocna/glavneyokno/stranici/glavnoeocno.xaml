@@ -1,0 +1,164 @@
+﻿<Page x:Class="pohoroneimagazin.ocna.glavneyokno.stranici.glavnoeocno"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pohoroneimagazin.ocna.glavneyokno.stranici"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1300" Background="Gray"
+      Title="glavnoeocno">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+          
+            <ColumnDefinition Width="150">
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100">
+            </RowDefinition>
+            <RowDefinition Height="80">
+            </RowDefinition>
+            <RowDefinition Height="500">
+            </RowDefinition>
+           
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid x:Name="menu" Grid.Row="1" Grid.ColumnSpan="2">
+            <Border BorderThickness="1" CornerRadius="20">
+                <StackPanel Orientation="Horizontal" Background="White">
+                    <Button x:Name="glavnaButton" Content="Главная"  IsDefault="True" Width="250" Height="50" />
+                    <Button x:Name="uslugiButton" Content="Услуги"  IsDefault="True" Width="250" Height="50" Click="uslugiButton_Click"/>
+                    <Button  x:Name="ocompaniiButton" Content="О компании"  IsDefault="True" Width="250" Height="50" Click="ocompaniiButton_Click"/>
+                    <Button x:Name="adresaaButton" Content="адрес компании"  IsDefault="True" Width="230" Height="50" Click="adresaaButton_Click"/>
+                    <Button x:Name="korzinaButton" Content="корзина"  IsDefault="True" Width="70" Height="50" Margin="15" Click="korzinaButton_Click"/>
+                    <Button x:Name="registraciaButton" Content="вход"  IsDefault="True" Width="70" Height="50" Margin="15" Click="registraciaButton_Click"/>
+                    <Button  x:Name="loginButton" Content="регистрация"  IsDefault="True" Width="70" Height="50" Margin="15" Click="loginButton_Click" Cursor="Hand" />
+                     </StackPanel>
+            </Border>
+        </Grid>
+        <Grid x:Name="slidemeny" Grid.Column="0" Grid.Row="2" Background="YellowGreen" >
+            <Border BorderThickness="1,0,1,1" Background="#FF6E01D4" CornerRadius="30"/>
+               
+            <StackPanel Orientation="Vertical">
+                <Button x:Name="pamatnikcButton" Content="Памятники"  IsDefault="True" Height="50" Click="pamatnikcButton_Click"></Button>
+                <Button x:Name="GravirovkaButton" Content="Гравировка"  IsDefault="True" Height="50" Click="GravirovkaButton_Click"></Button>
+                <Button x:Name="OgradaButton" Content="Ограды"  IsDefault="True" Height="50" Click="OgradaButton_Click"></Button>
+                <Button x:Name="GrobButton" Content="Гробы"  IsDefault="True" Height="50" Click="GrobButton_Click"></Button>
+                <Button  x:Name="KrestButton" Content="Кресты"  IsDefault="True" Height="50" Click="KrestButton_Click"></Button>
+                <Button x:Name="VenkiButton" Content="Венки"  IsDefault="True" Height="50" Click="VenkiButton_Click"></Button>
+                <Button x:Name="tablicckiButton" Content="Таблички"  IsDefault="True" Height="50" Click="tablicckiButton_Click"></Button>
+                <Button x:Name="odegdaButton" Content="одежда"  IsDefault="True" Height="50" Click="odegdaButton_Click"></Button>
+                
+            </StackPanel>
+        </Grid>
+        <Grid  x:Name="meny" Grid.Column="2" Grid.Row="2" Background="GreenYellow">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                </ColumnDefinition>
+                <ColumnDefinition>
+                </ColumnDefinition>
+                <ColumnDefinition>
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition>
+                </RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel x:Name="pamatnic" Grid.Column="0" Grid.Row="0">
+                <StackPanel Margin="9" Width="300" Height="100" Background="Black">
+                    <Image Width="300" Height="100"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto\pfmatnic1.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+                </StackPanel>
+                <Button  x:Name="pamatnikcprosmotrButton" Content="Памятники"  IsDefault="True" Height="40" Margin="1" Click="pamatnikcprosmotrButton_Click" Cursor="Hand" ></Button>
+            </StackPanel>
+            <StackPanel x:Name="gravirovca" Grid.Column="1" Grid.Row="0">
+                <StackPanel Margin="0,9,9,9" Width="300" Height="100" Background="Black">
+                    <Image Width="300" Height="300"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto1\g1.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+                </StackPanel>
+                <Button x:Name="gravirovcaprosmotrButton" Content="Гравировка"  IsDefault="True" Height="40" Margin="1" Click="gravirovcaprosmotrButton_Click" ></Button>
+
+            </StackPanel>
+            <StackPanel x:Name="ograda" Grid.Column="2" Grid.Row="0">
+                <StackPanel Margin="9" Width="300" Height="100" Background="Black">
+                    <Image Width="300" Height="200"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto2\og5.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+                </StackPanel>
+                <Button x:Name="ogradaprosmotrButton" Content="Ограда"  IsDefault="True" Height="40" Margin="1" Click="ogradaprosmotrButton_Click" ></Button>
+
+            </StackPanel>
+            <StackPanel x:Name="grob" Grid.Column="0" Grid.Row="1">
+                <StackPanel Margin="9" Width="300" Height="100" Background="Black">
+                    <Image Width="300" Height="150"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto3\grob1-1.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+                </StackPanel>
+                <Button x:Name="grobprosmotrButton" Content="Гробы"  IsDefault="True" Height="40" Margin="1" Click="grobprosmotrButton_Click" ></Button>
+
+            </StackPanel>
+            <StackPanel x:Name="krest" Grid.Column="1" Grid.Row="1">
+                <StackPanel Margin="9" Width="300" Height="100" Background="Black">
+                    <Image Width="300" Height="150"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto4\k1.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+                </StackPanel>
+                <Button x:Name="krestprosmotrButton" Content="Кресты"  IsDefault="True" Height="40" Margin="1" Click="krestprosmotrButton_Click" ></Button>
+
+            </StackPanel>
+            <StackPanel x:Name="venok" Grid.Column="2" Grid.Row="1">
+                <StackPanel Margin="9" Width="300" Height="100" Background="Black">
+                    <Image Width="300" Height="150"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto5\v1.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+                </StackPanel>
+                <Button x:Name="venokbprosmotrButton" Content="Венки"  IsDefault="True" Height="40" Margin="1" Click="venokbprosmotrButton_Click" ></Button>
+
+            </StackPanel>
+            <StackPanel x:Name="tablicka" Grid.Column="0" Grid.Row="3">
+                <StackPanel Margin="9" Width="300" Height="100" Background="Black">
+                    <Image Width="300" Height="150"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto6\tab1.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+                </StackPanel>
+                <Button x:Name="tablickaprosmotrButton" Content="Таблички"  IsDefault="True" Height="40" Margin="1" Click="tablickaprosmotrButton_Click" ></Button>
+
+            </StackPanel>
+            <StackPanel x:Name="odegda" Grid.Column="1" Grid.Row="3">
+                <StackPanel Margin="9" Width="300" Height="100" Background="Black">
+                    <Image Width="300" Height="150"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto7\od2.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+                </StackPanel>
+                <Button x:Name="odegdaprosmotrButton" Content="одежда"  IsDefault="True" Height="40" Margin="1" Click="odegdaprosmotrButton_Click" ></Button>
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="0" Grid.ColumnSpan="4" Background="#FF0E0E73">
+            <StackPanel Height="130" Width="1300" >
+                <Image Height="100" Width="1900"   Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\logo\logo1.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="3" Grid.ColumnSpan="4" Background="White">
+            <StackPanel Height="120" Width="1300"  >
+                <Image Height="130" Width="1900"   Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\logo\logo2.jpg"
+                                    
+                                    />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

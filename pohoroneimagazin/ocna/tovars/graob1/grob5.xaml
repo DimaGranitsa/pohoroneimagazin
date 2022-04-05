@@ -1,0 +1,100 @@
+﻿<Page x:Class="pohoroneimagazin.ocna.tovars.graob1.grob5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pohoroneimagazin.ocna.tovars.graob1"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="1300"
+      Title="grob5">
+
+    <Grid Background="red">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80">
+            </RowDefinition>
+            <RowDefinition>
+            </RowDefinition>
+            <RowDefinition Height="70">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel  x:Name="nazvanie1" Grid.Row="0" Grid.Column="0" >
+            <TextBlock  Width="400" FontSize="30" >
+        ГРОБ ЛАКИРОВАННЫЙ №1
+
+            </TextBlock>
+
+        </StackPanel>
+        <StackPanel  x:Name="nazvanie2" Grid.Row="0" Grid.Column="1" >
+            <TextBlock Width="400" FontSize="30" >
+       ГРОБ ПОСТЕЛЬ №1
+
+            </TextBlock>
+
+        </StackPanel>
+        <StackPanel  x:Name="nazvanie3" Grid.Row="0" Grid.Column="2" >
+            <TextBlock  Width="400" FontSize="30">
+        ГРОБ ПОСТЕЛЬ №1
+
+            </TextBlock>
+
+        </StackPanel>
+        <StackPanel  x:Name="nazvanie4" Grid.Row="3" Grid.Column="2" >
+            <Button x:Name="Grob1Button" Content="добавить в корзину"  IsDefault="True" Height="40" Margin="10" Width="350" ></Button>
+        </StackPanel>
+
+
+
+
+
+        <Grid Grid.Row="3" Grid.Column="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                </ColumnDefinition>
+                <ColumnDefinition>
+                </ColumnDefinition>
+                <ColumnDefinition>
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+
+
+            <StackPanel  x:Name="nazvanie5" Grid.Row="3" Grid.Column="0" >
+                <Button x:Name="Grob2Button" Content="1.60" FontSize="30"  IsDefault="True" Height="50" Margin="10" Width="130" ></Button>
+            </StackPanel>
+            <StackPanel  x:Name="nazvanie6" Grid.Row="3" Grid.Column="1" >
+                <Button x:Name="Grob3Button" Content="1.80" FontSize="30"  IsDefault="True" Height="50" Margin="10" Width="130" ></Button>
+            </StackPanel>
+            <StackPanel  x:Name="nazvanie7" Grid.Row="3" Grid.Column="2" >
+                <Button x:Name="Grob4Button" Content="2.00" FontSize="30"  IsDefault="True" Height="50" Margin="10" Width="130" ></Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0" >
+            <StackPanel Margin="20" Background="Black">
+                <Image Width="390" Height="610"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto3\grob5-1.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1" >
+            <StackPanel Margin="20" Background="Black">
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="2" >
+            <StackPanel Margin="20" Background="Black">
+                <Image Width="390" Height="610"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto3\grob5-2.jpg"  VerticalAlignment="Top"
+                                    
+                                    />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

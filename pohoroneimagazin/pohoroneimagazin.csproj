@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{589337DA-7ECE-4C36-8BAE-6A06B1076C91}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pohoroneimagazin</RootNamespace>
+    <AssemblyName>pohoroneimagazin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=2.0.5.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.2.0.5\lib\net452\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=4.4.0.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.4.4.0\lib\net452\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ocna\adres\adres.xaml.cs">
+      <DependentUpon>adres.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\bumaga1\bumaga.xaml.cs">
+      <DependentUpon>bumaga.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\ocompanii\ocompani1.xaml.cs">
+      <DependentUpon>ocompani1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\crest.xaml.cs">
+      <DependentUpon>crest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\graob1\grob1.xaml.cs">
+      <DependentUpon>grob1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\graob1\Grob2.xaml.cs">
+      <DependentUpon>Grob2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\graob1\Grob3.xaml.cs">
+      <DependentUpon>Grob3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\graob1\grob4.xaml.cs">
+      <DependentUpon>grob4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\graob1\grob5.xaml.cs">
+      <DependentUpon>grob5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\graob1\Grob6.xaml.cs">
+      <DependentUpon>Grob6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\gravirovca.xaml.cs">
+      <DependentUpon>gravirovca.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\grob.xaml.cs">
+      <DependentUpon>grob.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\korzina\Korzina.xaml.cs">
+      <DependentUpon>Korzina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\korzina\oplata1.xaml.cs">
+      <DependentUpon>oplata1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\odegda.xaml.cs">
+      <DependentUpon>odegda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\ograda.xaml.cs">
+      <DependentUpon>ograda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\pamatnici.xaml.cs">
+      <DependentUpon>pamatnici.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\tab.xaml.cs">
+      <DependentUpon>tab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\venok.xaml.cs">
+      <DependentUpon>venok.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\uslugi\bog\bog1.xaml.cs">
+      <DependentUpon>bog1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\uslugi\Glavnaustranitsauslug.xaml.cs">
+      <DependentUpon>Glavnaustranitsauslug.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\uslugi\kremacia\krema.xaml.cs">
+      <DependentUpon>krema.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\uslugi\omov\omenie.xaml.cs">
+      <DependentUpon>omenie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\uslugi\perevozkatela\perevozka.xaml.cs">
+      <DependentUpon>perevozka.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\uslugi\pogrebeni\pogreb1.xaml.cs">
+      <DependentUpon>pogreb1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reg\avtorizacia.xaml.cs">
+      <DependentUpon>avtorizacia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reg\регистрация .xaml.cs">
+      <DependentUpon>регистрация .xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="ocna\adres\adres.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\bumaga1\bumaga.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\glavneyokno\stranici\glavnoeocno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\ocompanii\ocompani1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\crest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\graob1\grob1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\graob1\Grob2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\graob1\Grob3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\graob1\grob4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\graob1\grob5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\graob1\Grob6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\gravirovca.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\grob.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\korzina\Korzina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\korzina\oplata1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\odegda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\ograda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\pamatnici.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\tab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\venok.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\uslugi\bog\bog1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\uslugi\Glavnaustranitsauslug.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\uslugi\kremacia\krema.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\uslugi\omov\omenie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\uslugi\perevozkatela\perevozka.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\uslugi\pogrebeni\pogreb1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reg\avtorizacia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reg\регистрация .xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ocna\glavneyokno\stranici\glavnoeocno.xaml.cs">
+      <DependentUpon>glavnoeocno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ocna\glavneyokno\okno\" />
+    <Folder Include="ocna\oknatovarov\okno\" />
+    <Folder Include="ocna\oknatovarov\stranitsa\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto\pfmatnic1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto\pfmatnic2.jpg" />
+    <Resource Include="ocna\foto\pfmatnic3.jpg" />
+    <Resource Include="ocna\foto\pfmatnic4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto\pfmatnic5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto\pfmatnic6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto1\g1.jpg" />
+    <Resource Include="ocna\foto1\g2.jpg" />
+    <Resource Include="ocna\foto1\g3.jpg" />
+    <Resource Include="ocna\foto1\g4.jpg" />
+    <Resource Include="ocna\foto1\g5.jpg" />
+    <Resource Include="ocna\foto1\g6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto2\og1.jpg" />
+    <Resource Include="ocna\foto2\og2.jpg" />
+    <Resource Include="ocna\foto2\og3.jpg" />
+    <Resource Include="ocna\foto2\og4.jpg" />
+    <Resource Include="ocna\foto2\og5.jpg" />
+    <Resource Include="ocna\foto2\og6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto3\grob1-1.jpg" />
+    <Resource Include="ocna\foto3\grob1-2.jpg" />
+    <Resource Include="ocna\foto3\grob1-3.jpg" />
+    <Resource Include="ocna\foto3\grob1-4.jpg" />
+    <Resource Include="ocna\foto3\grob2-1.jpg" />
+    <Resource Include="ocna\foto3\grob2-2.jpg" />
+    <Resource Include="ocna\foto3\grob3-1.jpg" />
+    <Resource Include="ocna\foto3\grob3-2.jpg" />
+    <Resource Include="ocna\foto3\grob4-1.jpg" />
+    <Resource Include="ocna\foto3\grob4-2.jpg" />
+    <Resource Include="ocna\foto3\grob5-1.jpg" />
+    <Resource Include="ocna\foto3\grob5-2.jpg" />
+    <Resource Include="ocna\foto3\grob6-1.jpg" />
+    <Resource Include="ocna\foto3\grob6-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto4\k1.jpg" />
+    <Resource Include="ocna\foto4\k2.jpg" />
+    <Resource Include="ocna\foto4\k3.jpg" />
+    <Resource Include="ocna\foto4\k4.jpg" />
+    <Resource Include="ocna\foto4\k5.jpg" />
+    <Resource Include="ocna\foto4\k6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto5\v1.jpg" />
+    <Resource Include="ocna\foto5\v2.jpg" />
+    <Resource Include="ocna\foto5\v3.jpg" />
+    <Resource Include="ocna\foto5\v4.jpg" />
+    <Resource Include="ocna\foto5\v5.jpg" />
+    <Resource Include="ocna\foto5\v6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto6\tab1.jpg" />
+    <Resource Include="ocna\foto6\tab2.jpg" />
+    <Resource Include="ocna\foto6\tab3.jpg" />
+    <Resource Include="ocna\foto6\tab4.jpg" />
+    <Resource Include="ocna\foto6\tab5.jpg" />
+    <Resource Include="ocna\foto6\tab6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto7\od1.jpg" />
+    <Resource Include="ocna\foto7\od2.jpg" />
+    <Resource Include="ocna\foto7\od3.jpg" />
+    <Resource Include="ocna\foto7\od4.jpg" />
+    <Resource Include="ocna\foto7\od6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto7\od5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto8\gravir.jpg" />
+    <Resource Include="ocna\foto8\krem.jpg" />
+    <Resource Include="ocna\foto8\omovenie.jpg" />
+    <Resource Include="ocna\foto8\pamatnic.jpg" />
+    <Resource Include="ocna\foto8\perev.jpg" />
+    <Resource Include="ocna\foto8\pogrebenie.jpg" />
+    <Resource Include="ocna\foto8\yslugi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\foto8\bumaga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\crem\krem1.jpg" />
+    <Resource Include="ocna\crem\krem2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\logo\logo1.jpg" />
+    <Resource Include="ocna\logo\logo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\perevozfoto\katafalk1-1.jpg" />
+    <Resource Include="ocna\perevozfoto\katafalk1.jpg" />
+    <Resource Include="ocna\perevozfoto\katafalk2-1.jpg" />
+    <Resource Include="ocna\perevozfoto\katafalk2-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ocna\bumaga1\bumaga.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>
