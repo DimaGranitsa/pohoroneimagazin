@@ -37,17 +37,17 @@ namespace pohoroneimagazin.ocna.glavneyokno.stranici
 
         private void pamatnikcprosmotrButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.pamatnici());
+            NavigationService.Navigate(new tovars.pamatnici1());
         }
 
         private void gravirovcaprosmotrButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.gravirovca());
+            NavigationService.Navigate(new tovars.gravirovca1());
         }
 
         private void ogradaprosmotrButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.ograda());
+            NavigationService.Navigate(new tovars.ograda1());
         }
 
         private void grobprosmotrButton_Click(object sender, RoutedEventArgs e)
@@ -78,17 +78,17 @@ namespace pohoroneimagazin.ocna.glavneyokno.stranici
         private void pamatnikcButton_Click(object sender, RoutedEventArgs e)
         {
 
-            NavigationService.Navigate(new tovars.pamatnici());
+            NavigationService.Navigate(new tovars.pamatnici1());
         }
 
         private void GravirovkaButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.gravirovca());
+            NavigationService.Navigate(new tovars.gravirovca1());
         }
 
         private void OgradaButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.ograda());
+            NavigationService.Navigate(new tovars.ograda1());
         }
 
         private void GrobButton_Click(object sender, RoutedEventArgs e)

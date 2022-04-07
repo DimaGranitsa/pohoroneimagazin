@@ -27,12 +27,12 @@ namespace pohoroneimagazin.ocna.uslugi
 
         private void podrobnie5Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.pamatnici());
+            NavigationService.Navigate(new tovars.pamatnici1());
         }
 
         private void Grob6Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.gravirovca());
+            NavigationService.Navigate(new tovars.gravirovca1());
         }
 
         private void podrobnie8Button_Click(object sender, RoutedEventArgs e)

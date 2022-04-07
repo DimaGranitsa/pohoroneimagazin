@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace pohoroneimagazin.ocna.tovars
 {
     /// <summary>
-    /// Логика взаимодействия для pamatnici.xaml
+    /// Логика взаимодействия для grob1.xaml
     /// </summary>
-    public partial class pamatnici : Page
+    public partial class grob1 : Page
     {
-        public pamatnici()
+        public grob1()
         {
             InitializeComponent();
         }

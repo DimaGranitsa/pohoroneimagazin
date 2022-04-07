@@ -93,11 +93,14 @@
     <Compile Include="ocna\tovars\graob1\Grob6.xaml.cs">
       <DependentUpon>Grob6.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ocna\tovars\gravirovca.xaml.cs">
-      <DependentUpon>gravirovca.xaml</DependentUpon>
+    <Compile Include="ocna\tovars\gravirovca1.xaml.cs">
+      <DependentUpon>gravirovca1.xaml</DependentUpon>
     </Compile>
     <Compile Include="ocna\tovars\grob.xaml.cs">
       <DependentUpon>grob.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ocna\tovars\grob1.xaml.cs">
+      <DependentUpon>grob1.xaml</DependentUpon>
     </Compile>
     <Compile Include="ocna\tovars\korzina\Korzina.xaml.cs">
       <DependentUpon>Korzina.xaml</DependentUpon>
@@ -108,11 +111,11 @@
     <Compile Include="ocna\tovars\odegda.xaml.cs">
       <DependentUpon>odegda.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ocna\tovars\ograda.xaml.cs">
-      <DependentUpon>ograda.xaml</DependentUpon>
+    <Compile Include="ocna\tovars\ograda1.xaml.cs">
+      <DependentUpon>ograda1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ocna\tovars\pamatnici.xaml.cs">
-      <DependentUpon>pamatnici.xaml</DependentUpon>
+    <Compile Include="ocna\tovars\pamatnici1.xaml.cs">
+      <DependentUpon>pamatnici1.xaml</DependentUpon>
     </Compile>
     <Compile Include="ocna\tovars\tab.xaml.cs">
       <DependentUpon>tab.xaml</DependentUpon>
@@ -200,11 +203,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ocna\tovars\gravirovca.xaml">
+    <Page Include="ocna\tovars\gravirovca1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ocna\tovars\grob.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ocna\tovars\grob1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -220,11 +227,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ocna\tovars\ograda.xaml">
+    <Page Include="ocna\tovars\ograda1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ocna\tovars\pamatnici.xaml">
+    <Page Include="ocna\tovars\pamatnici1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
