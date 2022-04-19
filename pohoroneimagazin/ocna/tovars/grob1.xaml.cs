@@ -24,5 +24,40 @@ namespace pohoroneimagazin.ocna.tovars
         {
             InitializeComponent();
         }
+
+        private void karzina1Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void karzina2Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void karzina3Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void karzina4Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void karzina5Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void karzina6Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void karzina7Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

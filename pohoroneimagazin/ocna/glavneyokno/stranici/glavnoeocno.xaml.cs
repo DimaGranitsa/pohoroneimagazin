@@ -52,27 +52,27 @@ namespace pohoroneimagazin.ocna.glavneyokno.stranici
 
         private void grobprosmotrButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.grob());
+            NavigationService.Navigate(new tovars.grob1());
         }
 
         private void krestprosmotrButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.crest());
+            NavigationService.Navigate(new tovars.crest1());
         }
 
         private void venokbprosmotrButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.venok());
+            NavigationService.Navigate(new tovars.venoc1());
         }
 
         private void tablickaprosmotrButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.tab());
+            NavigationService.Navigate(new tovars.tab1());
         }
 
         private void odegdaprosmotrButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.odegda());
+            NavigationService.Navigate(new tovars.odegda1());
         }
 
         private void pamatnikcButton_Click(object sender, RoutedEventArgs e)
@@ -93,28 +93,28 @@ namespace pohoroneimagazin.ocna.glavneyokno.stranici
 
         private void GrobButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.grob());
+            NavigationService.Navigate(new tovars.grob1());
         }
 
         private void KrestButton_Click(object sender, RoutedEventArgs e)
         {
 
-            NavigationService.Navigate(new tovars.crest());
+            NavigationService.Navigate(new tovars.crest1());
         }
 
         private void VenkiButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.venok());
+            NavigationService.Navigate(new tovars.venoc1());
         }
 
         private void tablicckiButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.tab());
+            NavigationService.Navigate(new tovars.tab1());
         }
 
         private void odegdaButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new tovars.odegda());
+            NavigationService.Navigate(new tovars.odegda1());
         }
 
         private void korzinaButton_Click(object sender, RoutedEventArgs e)

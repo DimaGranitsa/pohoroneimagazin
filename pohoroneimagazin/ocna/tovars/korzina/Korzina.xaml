@@ -5,35 +5,35 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:pohoroneimagazin.ocna.tovars.korzina"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Korzina">
+      d:DesignHeight="800" d:DesignWidth="1500"
+      Title="Korzina" Loaded="Page_Loaded">
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="50">
+            <ColumnDefinition Width="0">
             </ColumnDefinition>
             <ColumnDefinition>
             </ColumnDefinition>
-            
+
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="80">
+            <RowDefinition Height="50">
             </RowDefinition>
             <RowDefinition>
             </RowDefinition>
         </Grid.RowDefinitions>
-        <StackPanel x:Name="nazvanie" Grid.Column="0" Grid.Row="0" Background="#FF32FD13">
-            
+        <StackPanel x:Name="nazvanie" Grid.Column="0" Grid.Row="0" Background="White" Grid.ColumnSpan="2" Margin="0,0,800,0">
+
         </StackPanel>
-        <StackPanel x:Name="udalenie" Grid.Column="1" Grid.Row="0" Background="White">
-            <TextBlock  Width="230" FontSize="60" Background="White">
+        <StackPanel x:Name="udalenie" Grid.Column="1" Grid.Row="0"  Background="White">
+            <TextBlock  Width="230" FontSize="40" Background="White">
           Корзина
 
             </TextBlock>
         </StackPanel>
-      
-        <Grid x:Name="meny" Grid.Column="2" Grid.Row="2" Background="Gray">
-            
+
+        <Grid x:Name="meny" Grid.Column="1" Grid.Row="1" Background="White">
+
             <Grid.RowDefinitions>
                 <RowDefinition >
                 </RowDefinition>
@@ -53,19 +53,200 @@
                 </ColumnDefinition>
                 <ColumnDefinition>
                 </ColumnDefinition>
-               
-                
+
+
 
             </Grid.ColumnDefinitions>
+            <!--pola-->
+            <Border  CornerRadius="20" BorderBrush="Black"  BorderThickness="2" Grid.Column="0 " Grid.Row="0" Height="170" MouseDown="Border_MouseDown">
+
+
+                <Grid Grid.Row="0" Grid.Column="0">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition >
+
+
+
+                        </RowDefinition>
+                        <RowDefinition Height="27" >
+
+
+
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Border  CornerRadius="20" Height="60" Width="70">
+                        <Border.Background>
+                            <ImageBrush x:Name="IM1" Stretch="Fill"  />
+
+
+                        </Border.Background>
+                    </Border>
+
+
+                    <TextBlock Grid.Row="1" FontSize="13" x:Name="la1" HorizontalAlignment="Right" >
+
+                    </TextBlock>
+                </Grid>
+            </Border>
+
+
+
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="1 " Grid.Row="0" Height="170">
+
+
+                <Grid Grid.Row="1" Grid.Column="0">
+                    <Grid Grid.Row="0" Grid.Column="0">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition >
+
+
+
+                            </RowDefinition>
+                            <RowDefinition Height="27" >
+
+
+
+                            </RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Border  CornerRadius="20" Height="60" Width="70">
+                            <Border.Background>
+                                <ImageBrush x:Name="IM2" Stretch="Fill"  />
+
+
+                            </Border.Background>
+                        </Border>
+
+
+                        <TextBlock Grid.Row="1" FontSize="13" x:Name="la2" HorizontalAlignment="Right" >
+
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="2 " Grid.Row="0" Height="170">
+
+                <Grid Grid.Row="2" Grid.Column="0">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="3 " Grid.Row="0" Height="170">
+
+                <Grid Grid.Row="3" Grid.Column="0">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="0 " Grid.Row="1" Height="170">
+
+                <Grid Grid.Row="0" Grid.Column="1">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="1 " Grid.Row="1" Height="170">
+
+                <Grid Grid.Row="1" Grid.Column="1">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="2 " Grid.Row="1" Height="170">
+
+                <Grid Grid.Row="2" Grid.Column="1">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="3 " Grid.Row="1" Height="170">
+
+                <Grid Grid.Row="3" Grid.Column="1">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="0 " Grid.Row="2" Height="170">
+
+                <Grid Grid.Row="0" Grid.Column="2">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="1 " Grid.Row="2" Height="170">
+
+                <Grid Grid.Row="1" Grid.Column="2">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="2 " Grid.Row="2" Height="170">
+
+                <Grid Grid.Row="2" Grid.Column="2">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="3 " Grid.Row="2" Height="170">
+
+                <Grid Grid.Row="3" Grid.Column="2">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="0 " Grid.Row="3" Height="170">
+
+                <Grid Grid.Row="0" Grid.Column="3">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="1 " Grid.Row="3" Height="170">
+
+                <Grid Grid.Row="1" Grid.Column="3">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="20" BorderBrush="Black" BorderThickness="2" Grid.Column="2 " Grid.Row="3" Height="170">
+
+                <Grid Grid.Row="2" Grid.Column="3">
+
+                </Grid>
+            </Border>
+            <Border  CornerRadius="10" BorderBrush="Black" BorderThickness="2" Grid.Column="3 " Grid.Row="3" Height="170">
+
+                <Grid Grid.Row="3" Grid.Column="3">
+
+                </Grid>
+            </Border>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <Grid Grid.Row="4" Grid.Column="4">
                 <Grid.RowDefinitions>
-                   
+
                     <RowDefinition>
                     </RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                   
-                   
+
+
                     <ColumnDefinition>
                     </ColumnDefinition>
                     <ColumnDefinition>
@@ -74,33 +255,22 @@
 
 
                 </Grid.ColumnDefinitions>
-                <Button Grid.Row="3" Grid.Column="3"  x:Name="oplata1Button" Content="Оплата"  IsDefault="True" Height="40" Width="65" Margin="1 " HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="oplata1Button_Click" ></Button>
-                <TextBlock VerticalAlignment="Bottom" Grid.Column="0"  Background="White" FontSize="30">
+
+
+
+
+
+                <Button  Grid.Row="3" Grid.Column="3"  x:Name="oplata1Button" Content="Оплата"  IsDefault="True" Height="40" Width="65" Margin="10 " HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="oplata1Button_Click" ></Button>
+                <TextBox Margin="10" x:Name="tb1" VerticalAlignment="Bottom" Grid.Column="0"  Background="White" FontSize="30" Cursor="Arrow" IsEnabled="False">
                     0
-                </TextBlock>
+                </TextBox>
             </Grid>
-            
+
         </Grid>
-        <Grid x:Name="удаление" Grid.Column="0" Grid.Row="1" Background="White">
-            <Grid.RowDefinitions>
-            <RowDefinition >
-            </RowDefinition>
-            <RowDefinition>
-            </RowDefinition>
-            <RowDefinition >
-            </RowDefinition>
-            <RowDefinition>
-            </RowDefinition>
-            </Grid.RowDefinitions>
-            <StackPanel x:Name="удаление2" Grid.Column="0" Grid.Row="1" Background="White">
-               </StackPanel> 
-            <Button  Grid.Row="0" x:Name="удалить1Button" Content="удалить"  IsDefault="True" Height="40" Margin="1" ></Button>
-            <Button  Grid.Row="1" x:Name="удалить2Button" Content="удалить"  IsDefault="True" Height="40" Margin="1" ></Button>
-            <Button  Grid.Row="2" x:Name="удалить3Button" Content="удалить"  IsDefault="True" Height="40" Margin="1" ></Button>
-            <Button  Grid.Row="3" x:Name="удалить4Button" Content="удалить"  IsDefault="True" Height="40" Margin="1" ></Button>
-             
+        <Grid Grid.Row="1" Grid.Column="1" >
+
         </Grid>
     </Grid>
-   
-    
+
+
 </Page>

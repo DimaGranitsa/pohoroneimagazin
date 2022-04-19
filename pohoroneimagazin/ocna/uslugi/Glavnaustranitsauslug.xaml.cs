@@ -69,6 +69,11 @@ namespace pohoroneimagazin.ocna.uslugi
         {
             NavigationService.Navigate(new uslugi.pogrebeni.pogreb1());
         }
+
+        private void pamatnikcprosmotr6Button_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new tovars.grob1());
+        }
     }
     }
 

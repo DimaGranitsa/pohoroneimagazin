@@ -16,39 +16,23 @@ using System.Windows.Shapes;
 namespace pohoroneimagazin.ocna.tovars
 {
     /// <summary>
-    /// Логика взаимодействия для pamatnici1.xaml
+    /// Логика взаимодействия для odegda1.xaml
     /// </summary>
-    public partial class pamatnici1 : Page
+    public partial class odegda1 : Page
     {
-        public pamatnici1()
+        public odegda1()
         {
             InitializeComponent();
         }
 
-        public TextBlock TB
-        {
-            get { return tb1; }
-            set { tb1 = value; }
-        }
-        public ImageBrush IM 
-        {
-            get { return pfmatnic1; }
-            set { pfmatnic1 = value; }
-        }
-        public TextBlock TB1
-        {
-            get { return tb2; }
-            set { tb2 = value; }
-        }
-        public ImageBrush IM1
-        {
-            get { return pfmatnic2; }
-            set { pfmatnic2 = value; }
-        }
-
         private void karzina1Button_Click(object sender, RoutedEventArgs e)
         {
-            
+
+        }
+
+        private void karzina1Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
 
         private void karzina2Button_Click(object sender, RoutedEventArgs e)

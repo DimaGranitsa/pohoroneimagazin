@@ -72,8 +72,8 @@
     <Compile Include="ocna\ocompanii\ocompani1.xaml.cs">
       <DependentUpon>ocompani1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ocna\tovars\crest.xaml.cs">
-      <DependentUpon>crest.xaml</DependentUpon>
+    <Compile Include="ocna\tovars\crest1.xaml.cs">
+      <DependentUpon>crest1.xaml</DependentUpon>
     </Compile>
     <Compile Include="ocna\tovars\graob1\grob1.xaml.cs">
       <DependentUpon>grob1.xaml</DependentUpon>
@@ -96,9 +96,6 @@
     <Compile Include="ocna\tovars\gravirovca1.xaml.cs">
       <DependentUpon>gravirovca1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ocna\tovars\grob.xaml.cs">
-      <DependentUpon>grob.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ocna\tovars\grob1.xaml.cs">
       <DependentUpon>grob1.xaml</DependentUpon>
     </Compile>
@@ -108,8 +105,8 @@
     <Compile Include="ocna\tovars\korzina\oplata1.xaml.cs">
       <DependentUpon>oplata1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ocna\tovars\odegda.xaml.cs">
-      <DependentUpon>odegda.xaml</DependentUpon>
+    <Compile Include="ocna\tovars\odegda1.xaml.cs">
+      <DependentUpon>odegda1.xaml</DependentUpon>
     </Compile>
     <Compile Include="ocna\tovars\ograda1.xaml.cs">
       <DependentUpon>ograda1.xaml</DependentUpon>
@@ -117,11 +114,11 @@
     <Compile Include="ocna\tovars\pamatnici1.xaml.cs">
       <DependentUpon>pamatnici1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ocna\tovars\tab.xaml.cs">
-      <DependentUpon>tab.xaml</DependentUpon>
+    <Compile Include="ocna\tovars\tab1.xaml.cs">
+      <DependentUpon>tab1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ocna\tovars\venok.xaml.cs">
-      <DependentUpon>venok.xaml</DependentUpon>
+    <Compile Include="ocna\tovars\venoc1.xaml.cs">
+      <DependentUpon>venoc1.xaml</DependentUpon>
     </Compile>
     <Compile Include="ocna\uslugi\bog\bog1.xaml.cs">
       <DependentUpon>bog1.xaml</DependentUpon>
@@ -175,7 +172,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ocna\tovars\crest.xaml">
+    <Page Include="ocna\tovars\crest1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -207,10 +204,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ocna\tovars\grob.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="ocna\tovars\grob1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -223,7 +216,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ocna\tovars\odegda.xaml">
+    <Page Include="ocna\tovars\odegda1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -235,11 +228,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ocna\tovars\tab.xaml">
+    <Page Include="ocna\tovars\tab1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ocna\tovars\venok.xaml">
+    <Page Include="ocna\tovars\venoc1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

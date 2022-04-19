@@ -9,6 +9,7 @@
       Title="Glavnaustranitsauslug">
 
     <Grid>
+
         <!--<Grid.ColumnDefinitions>
             <ColumnDefinition>
                 
@@ -20,139 +21,608 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="220">
             </RowDefinition>
-          
+
             <RowDefinition>
             </RowDefinition>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Background="Coral">
-            <Grid.RowDefinitions>
-                <RowDefinition >
-                </RowDefinition>
-                <RowDefinition>
-                </RowDefinition>
-            </Grid.RowDefinitions>
-            <TextBlock  Width="300" FontSize="80"  HorizontalAlignment="Center"  VerticalAlignment="Center">
+        <Grid Grid.Row="0" Background="#FFB2E9FC">
+
+
+
+
+            <Grid Grid.Row="0" Grid.Column="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="500"></ColumnDefinition>
+                    <ColumnDefinition Width="400" ></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Border Grid.ColumnSpan="3" Grid.RowSpan="2" CornerRadius="30" BorderBrush="DeepSkyBlue" BorderThickness="20"  Height="220">
+
+                </Border>
+                <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0" Width="300" FontSize="87" FontFamily="Times New Roman" Margin="74,0,0,0" >
         услуги
-            </TextBlock>
-            <TextBlock Grid.Row="1" Width="1300" FontSize="30"  HorizontalAlignment="Center"  VerticalAlignment="Center">
+                </TextBlock>
+                <TextBlock Grid.Row="0" Width="810" Height="80" FontSize="34" Grid.Column="1" Grid.ColumnSpan="3" FontFamily="Times New Roman">
         
                 
                 
                 Позвоните по телефону 8 (843) 558-00-83 и
               
-                закажите интересующий Вас товар.
-                <LineBreak />
-                Наш ритуальный агент БЕСПЛАТНО, 
-                <LineBreak />приедет к Вам, 
+                закажите<LineBreak /> интересующий Вас товар.
+
+
+                </TextBlock>
+
+                <TextBlock Width="1200" Height="80"  FontSize="33"  Grid.ColumnSpan="3" Margin="52,1,48,29" Grid.Row="1" FontFamily="Times New Roman">
+                   
+                Наш ритуальный агент БЕСПЛАТНО, приедет к Вам, 
               
-                примет заказ и организует доставку товара до места 
+                примет заказ и <LineBreak /> 
+                    организует доставку товара до места 
                 
                 назначения.
-            </TextBlock>
+                </TextBlock>
+            </Grid>
         </Grid>
+
+
+
+
+
+
         <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition>
-                </ColumnDefinition>
-                <ColumnDefinition>
-                </ColumnDefinition>
-                <ColumnDefinition>
-                </ColumnDefinition>
-                <ColumnDefinition>
-                </ColumnDefinition>
-            </Grid.ColumnDefinitions>
 
-            <Grid.RowDefinitions>
-                <RowDefinition >
-                </RowDefinition>
-                <RowDefinition>
-                </RowDefinition>
-            </Grid.RowDefinitions>
-           
+            <!--<Grid.ColumnDefinitions>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                </Grid.ColumnDefinitions>
 
-            <StackPanel Background="#FFB3E5FF"  x:Name="pamatnic1" Grid.Column="1" Grid.Row="0">
-                <StackPanel Margin="9" Width="300" Height="180" Background="Black">
-                    <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\perev.jpg"  VerticalAlignment="Bottom"
+                <Grid.RowDefinitions>
+                    <RowDefinition >
+                    </RowDefinition>
+                    <RowDefinition>
+                    </RowDefinition>
+                </Grid.RowDefinitions>
+
+
+                <StackPanel Background="#FFB3E5FF"  x:Name="pamatnic1" Grid.Column="1" Grid.Row="0">
+                    <StackPanel Margin="9" Width="300" Height="180" Background="Black">
+                        <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\perev.jpg"  VerticalAlignment="Bottom"
                                     
                                     />
-                </StackPanel>
-                <Button x:Name="Grob1Button" Content="ПЕРЕВОЗКА ТЕЛА УМЕРШЕГО"  IsDefault="True" Height="40" Margin="1" ></Button>
-                <Button x:Name="podrobnie1Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie1Button_Click" ></Button>
+                    </StackPanel>
+                    <Button x:Name="Grob1Button" Content="ПЕРЕВОЗКА ТЕЛА УМЕРШЕГО"  IsDefault="True" Height="40" Margin="1" ></Button>
+                    <Button x:Name="podrobnie1Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie1Button_Click" ></Button>
 
-            </StackPanel>
-            <StackPanel Grid.Column="2" Grid.Row="0"  Background="#FFB3E5FF">
-                <StackPanel Margin="9"  Width="300" Height="180" Background="Black">
-                    <Image  Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\bumaga.jpg"  VerticalAlignment="Bottom"
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="0"  Background="#FFB3E5FF">
+                    <StackPanel Margin="9"  Width="300" Height="180" Background="Black">
+                        <Image  Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\bumaga.jpg"  VerticalAlignment="Bottom"
                                     
                                     />
-                </StackPanel>
-                <Button x:Name="Grob2Button" Content="ОФОРМЛЕНИЕ БУМАГ О СМЕРТИ"  IsDefault="True" Height="40" Margin="1" ></Button>
-                <Button x:Name="podrobnie2Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie2Button_Click" Cursor="Hand" ></Button>
+                    </StackPanel>
+                    <Button x:Name="Grob2Button" Content="ОФОРМЛЕНИЕ БУМАГ О СМЕРТИ"  IsDefault="True" Height="40" Margin="1" ></Button>
+                    <Button x:Name="podrobnie2Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie2Button_Click" Cursor="Hand" ></Button>
 
-            </StackPanel>
-            <StackPanel Grid.Column="3" Grid.Row="0"  Background="#FFB3E5FF">
-                <StackPanel Margin="9" Width="300" Height="180" Background="Black">
-                    <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\omovenie.jpg"  VerticalAlignment="Bottom"
+                </StackPanel>
+                <StackPanel Grid.Column="3" Grid.Row="0"  Background="#FFB3E5FF">
+                    <StackPanel Margin="9" Width="300" Height="180" Background="Black">
+                        <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\omovenie.jpg"  VerticalAlignment="Bottom"
                                     
                                     />
-                </StackPanel>
-                <Button x:Name="vaborrazmerov3Button" Content="ОМОВЕНИЕ ТЕЛА"  IsDefault="True" Height="40" Margin="1" Click="vaborrazmerov3Button_Click" ></Button>
+                    </StackPanel>
+                    <Button x:Name="vaborrazmerov3Button" Content="ОМОВЕНИЕ ТЕЛА"  IsDefault="True" Height="40" Margin="1" Click="vaborrazmerov3Button_Click" ></Button>
 
-            </StackPanel>
-            <StackPanel Grid.Column="1" Grid.Row="2"  Background="#FFB3E5FF">
-                <StackPanel Margin="9" Width="300" Height="180" Background="Black">
-                    <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\pogrebenie.jpg"  VerticalAlignment="Bottom"
+                </StackPanel>
+                <StackPanel Grid.Column="1" Grid.Row="2"  Background="#FFB3E5FF">
+                    <StackPanel Margin="9" Width="300" Height="180" Background="Black">
+                        <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\pogrebenie.jpg"  VerticalAlignment="Bottom"
                                     
                                     />
-                </StackPanel>
-                <Button x:Name="vaborrazmerov4Button" Content="ПОГРЕБЕНИЕ УМЕРШЕГО"  IsDefault="True" Height="40" Margin="1" ></Button>
-                <Button x:Name="podrobnie4Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie4Button_Click" ></Button>
+                    </StackPanel>
+                    <Button x:Name="vaborrazmerov4Button" Content="ПОГРЕБЕНИЕ УМЕРШЕГО"  IsDefault="True" Height="40" Margin="1" ></Button>
+                    <Button x:Name="podrobnie4Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie4Button_Click" ></Button>
 
-            </StackPanel>
-            <StackPanel Grid.Column="2" Grid.Row="2"  Background="#FFB3E5FF">
-                <StackPanel Margin="9" Width="300" Height="180" Background="Black">
-                    <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\pamatnic.jpg"  VerticalAlignment="Bottom"
+                </StackPanel>
+                <StackPanel Grid.Column="2" Grid.Row="2"  Background="#FFB3E5FF">
+                    <StackPanel Margin="9" Width="300" Height="180" Background="Black">
+                        <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\pamatnic.jpg"  VerticalAlignment="Bottom"
                                     
                                     />
-                </StackPanel>
-                <Button x:Name="podrobnie5Button" Content="УСТАНОВКА ПАМЯТНИКОВ"  IsDefault="True" Height="40" Margin="1" Click="podrobnie5Button_Click" ></Button>
+                    </StackPanel>
+                    <Button x:Name="podrobnie5Button" Content="УСТАНОВКА ПАМЯТНИКОВ"  IsDefault="True" Height="40" Margin="1" Click="podrobnie5Button_Click" ></Button>
 
-            </StackPanel>
-            <StackPanel Grid.Column="3" Grid.Row="2"  Background="#FFB3E5FF">
-                <StackPanel Margin="9" Width="300" Height="180" Background="Black">
-                    <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\gravir.jpg"  VerticalAlignment="Bottom"
+                </StackPanel>
+                <StackPanel Grid.Column="3" Grid.Row="2"  Background="#FFB3E5FF">
+                    <StackPanel Margin="9" Width="300" Height="180" Background="Black">
+                        <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\gravir.jpg"  VerticalAlignment="Bottom"
                                     
                                     />
-                </StackPanel>
-                <Button x:Name="Grob6Button" Content="ГРАВИРОВКА ПАМЯТНИКОВ"  IsDefault="True" Height="40" Margin="1" Click="Grob6Button_Click" ></Button>
+                    </StackPanel>
+                    <Button x:Name="Grob6Button" Content="ГРАВИРОВКА ПАМЯТНИКОВ"  IsDefault="True" Height="40" Margin="1" Click="Grob6Button_Click" ></Button>
 
-            </StackPanel>
-            <StackPanel Grid.Column="0" Grid.Row="2"  Background="#FFB3E5FF">
-                <StackPanel Margin="9" Width="300" Height="180" Background="Black">
-                    <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\yslugi.jpg"  VerticalAlignment="Bottom"
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="2"  Background="#FFB3E5FF">
+                    <StackPanel Margin="9" Width="300" Height="180" Background="Black">
+                        <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\yslugi.jpg"  VerticalAlignment="Bottom"
                                     
                                     />
-                </StackPanel>
-                <Button x:Name="Grob7Button" Content="УСЛУГИ СВЯЩЕННОСЛУЖИТЕЛЯ"  IsDefault="True" Height="40" Margin="1" ></Button>
-                <Button x:Name="podrobnie7Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie7Button_Click" ></Button>
+                    </StackPanel>
+                    <Button x:Name="Grob7Button" Content="УСЛУГИ СВЯЩЕННОСЛУЖИТЕЛЯ"  IsDefault="True" Height="40" Margin="1" ></Button>
+                    <Button x:Name="podrobnie7Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie7Button_Click" ></Button>
 
-            </StackPanel>
-            <StackPanel Grid.Column="0" Grid.Row="0"  Background="#FFB3E5FF">
-                <StackPanel Margin="9" Width="300" Height="180" Background="Black">
-                    <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\krem.jpg"  VerticalAlignment="Bottom"
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="0"  Background="#FFB3E5FF">
+                    <StackPanel Margin="9" Width="300" Height="180" Background="Black">
+                        <Image Width="300" Height="180"    Source="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\foto8\krem.jpg"  VerticalAlignment="Bottom"
                                     
                                     />
+                    </StackPanel>
+                    <Button    x:Name="Grob8Button" Content="КРЕМАЦИЯ ТЕЛА УМЕРШЕГО"  IsDefault="True" Height="40" Margin="1" ></Button>
+                    <Button x:Name="podrobnie8Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie8Button_Click_1" ></Button>
+
                 </StackPanel>
-                <Button    x:Name="Grob8Button" Content="КРЕМАЦИЯ ТЕЛА УМЕРШЕГО"  IsDefault="True" Height="40" Margin="1" ></Button>
-                <Button x:Name="podrobnie8Button" Content="подробние"  IsDefault="True" Height="40" Margin="1" Click="podrobnie8Button_Click_1" ></Button>
-
-            </StackPanel>
 
 
+            
+        </Grid>-->
+            <!--ramka-->
+            <Grid Background="#FFB2E9FC">
+                <Border Grid.ColumnSpan="3" Grid.RowSpan="2" CornerRadius="30" BorderBrush="DeepSkyBlue" BorderThickness="20"  Height="580">
+                </Border>
+            </Grid>
+            <!--главные функции-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                    <ColumnDefinition>
+                    </ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition >
+                    </RowDefinition>
+                    <RowDefinition>
+                    </RowDefinition>
+                </Grid.RowDefinitions>
+                <!--sami funkcii-->
+                <Grid Grid.Column="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="20">
+                        </RowDefinition>
+                        <RowDefinition Height="210" >
+                        </RowDefinition>
+                        <RowDefinition Height="39">
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <StackPanel  Width="320" Height="220"  >
+                            <Border CornerRadius="20" Height="193" Width="150" >
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/ocna/foto8/omovenie.jpg"/>
 
 
-        </Grid>
+
+                                </Border.Background>
+                            </Border>
+
+
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="2" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr3Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="vaborrazmerov3Button_Click" Cursor="Hand" >
+
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="20" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+
+
+                            <Button.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="Blue"/>
+                            </Button.Effect>
+                        </Button>
+                    </Grid>
+
+                </Grid>
+
+
+                <!--sami funkcii-->
+                <Grid Grid.Column="1" Grid.Row="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="20">
+                        </RowDefinition>
+                        <RowDefinition Height="210" >
+                        </RowDefinition>
+                        <RowDefinition Height="39">
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <StackPanel  Width="320" Height="220"  >
+                            <Border CornerRadius="40" Height="200" Width="170" >
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/ocna/foto8/pogrebenie.jpg"/>
+
+
+
+                                </Border.Background>
+
+                               
+
+
+
+                            </Border>
+
+
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="2" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr4Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="podrobnie4Button_Click" Cursor="Hand" >
+
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="20" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+
+
+                            <Button.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="Blue"/>
+                            </Button.Effect>
+                        </Button>
+                    </Grid>
+
+                </Grid>
+
+
+
+                <!--sami funkcii-->
+                <Grid Grid.Column="2" Grid.Row="0" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="20">
+                        </RowDefinition>
+                        <RowDefinition Height="210" >
+                        </RowDefinition>
+                        <RowDefinition Height="39">
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <StackPanel  Width="320" Height="220"  >
+                            <Border CornerRadius="40" Height="200" Width="170" >
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/ocna/foto8/pamatnic.jpg"/>
+
+
+
+                                </Border.Background>
+
+                              
+
+
+
+                            </Border>
+
+
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="2" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr5Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="podrobnie5Button_Click" Cursor="Hand" >
+
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="20" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+
+
+                            <Button.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="Blue"/>
+                            </Button.Effect>
+                        </Button>
+                    </Grid>
+
+                </Grid>
+                <!--sami funkcii-->
+                <Grid Grid.Column="2" Grid.Row="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="20">
+                        </RowDefinition>
+                        <RowDefinition Height="210" >
+                        </RowDefinition>
+                        <RowDefinition Height="39">
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <StackPanel  Width="320" Height="220"  >
+                            <Border CornerRadius="40" Height="200" Width="300" >
+
+
+
+
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/ocna/foto3/grob1-1.jpg"/>
+
+
+
+                                </Border.Background>
+
+                            </Border>
+
+
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="2" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr6Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="pamatnikcprosmotr6Button_Click" Cursor="Hand" >
+
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="20" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+
+
+                            <Button.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="Blue"/>
+                            </Button.Effect>
+                        </Button>
+                    </Grid>
+
+                </Grid>
+
+
+                <!--sami funkcii-->
+                <Grid Grid.Column="3" Grid.Row="0" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="20">
+                        </RowDefinition>
+                        <RowDefinition Height="210" >
+                        </RowDefinition>
+                        <RowDefinition Height="39">
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <StackPanel  Width="320" Height="220"  >
+                            <Border CornerRadius="40" Height="190" Width="170" >
+
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/ocna/foto8/yslugi.jpg"/>
+
+
+
+                                </Border.Background>
+
+                              
+
+
+
+                            </Border>
+
+
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="2" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr7Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="podrobnie7Button_Click" Cursor="Hand" >
+
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="20" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+
+
+                            <Button.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="Blue"/>
+                            </Button.Effect>
+                        </Button>
+                    </Grid>
+
+                </Grid>
+
+
+
+
+
+
+
+                <!--sami funkcii-->
+                <Grid Grid.Column="3" Grid.Row="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="20">
+                        </RowDefinition>
+                        <RowDefinition Height="210" >
+                        </RowDefinition>
+                        <RowDefinition Height="39">
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <StackPanel  Width="320" Height="220"  >
+                            <Border CornerRadius="50" Height="200" Width="200" >
+
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/ocna/foto8/krem.jpg"/>
+
+
+
+                                </Border.Background>
+
+
+
+
+                            </Border>
+
+
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="2" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr8Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="podrobnie8Button_Click_1" Cursor="Hand" >
+
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="20" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+
+
+                            <Button.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="Blue"/>
+                            </Button.Effect>
+                        </Button>
+                    </Grid>
+
+                </Grid>
+
+
+
+
+
+
+                <!--sami funkcii-->
+                <Grid Grid.Row="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="20">
+                        </RowDefinition>
+                        <RowDefinition Height="210" >
+                        </RowDefinition>
+                        <RowDefinition Height="39">
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <StackPanel  Width="320" Height="220"  >
+                            <Border CornerRadius="20" Height="200" Width="170" >
+
+                             
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/ocna/foto8/bumaga.jpg"/>
+
+
+
+                                </Border.Background>
+
+
+                            </Border>
+
+
+
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr2Button" Content="Документы"  IsDefault="True" Width="200" Height="40" Click="podrobnie2Button_Click " Cursor="Hand" >
+
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="20" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+
+
+                            <Button.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="Blue"/>
+                            </Button.Effect>
+                        </Button>
+                    </Grid>
+                </Grid>
+
+
+
+
+
+
+
+                <Grid Grid.Row="0" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition  Height="30">
+                        </RowDefinition>
+                        <RowDefinition >
+                        </RowDefinition>
+                        <RowDefinition Height="70">
+                        </RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="1">
+                        <StackPanel  Width="320" Height="220"  >
+                            <Border CornerRadius="20" Height="193" Width="150" >
+                                <Border.Background>
+                                    <ImageBrush ImageSource="/ocna/foto8/perev.jpg"/>
+
+
+
+                                </Border.Background>
+                            </Border>
+
+
+
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr2utton" Content="перевозки"  IsDefault="True" Width="200" Height="40" Click="podrobnie1Button_Click" Cursor="Hand" >
+
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="20" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+
+
+                            <Button.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="Blue"/>
+                            </Button.Effect>
+                        </Button>
+                    </Grid>
+                </Grid>
+
+            </Grid>
+</Grid>
+
+        
+        
     </Grid>
-   
-    
+
 </Page>
