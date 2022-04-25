@@ -13,12 +13,12 @@
     <Grid Background="GreenYellow">
 
     
-            <Border Background="Gray" CornerRadius="40" Margin="18,16,22,24">
+            <!--<Border Background="Gray" CornerRadius="40" Margin="18,16,22,24">
                 <StackPanel Margin="40">
                     <Label Content="логин" Foreground="White" FontSize="50" HorizontalAlignment="Center"/>
                     <Separator></Separator>
                     <Label Content="username" Foreground="White" />
-                    <TextBox Name="txtUsername" Background="Black" FontSize="30" Foreground="White"></TextBox>
+                    <TextBox Name="txtUsername" Background="Black" FontSize="30" Foreground="White" Cursor="Arrow"></TextBox>
                     <Label Content="password" Foreground="White" />
 
                     <PasswordBox Name="txtpassword" Background="Black" FontSize="30" Foreground="White"></PasswordBox>
@@ -26,7 +26,7 @@
                     <Button Name="vhodvkobinet" Content="вход кабинет" Margin="40 20" Background="Black" FontSize="19" Foreground="White" Click="vhodvkobinet_Click"></Button>
 
                 </StackPanel>
-            </Border>
+            </Border>-->
 
         
     </Grid>
