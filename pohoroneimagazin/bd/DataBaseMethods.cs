@@ -30,7 +30,7 @@ namespace pohoroneimagazin.bd
             var database = auth.GetDatabase("shop");
             var collection = database.GetCollection<regnov>("regnov1");
 
-           return collection.Find(x => true).ToList();
+           return collection.Find(x => true).ToList() ; 
         }
     }
 }
