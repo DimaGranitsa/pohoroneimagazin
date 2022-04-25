@@ -55,10 +55,109 @@
                                     </RowDefinition>
                                 </Grid.RowDefinitions>
                                 <Grid Grid.Row="2">
-                                    
+                                    <Button  Background="#FF0F0C6C" x:Name="regButton" Content="создать нового пользователя" FontSize="20"  IsDefault="True" Width="500" Height="80" Click="regButton_Click" Cursor="Hand" >
+
+                                        <Button.Resources>
+                                            <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                                <Style.Resources>
+                                                    <Style TargetType="{x:Type Border}">
+                                                        <Setter Property="CornerRadius" Value="20" />
+                                                    </Style>
+                                                </Style.Resources>
+                                            </Style>
+                                        </Button.Resources>
+
+
+                                        <Button.Effect>
+                                            <DropShadowEffect BlurRadius="25" ShadowDepth="0" Color="Blue"/>
+                                        </Button.Effect>
+                                    </Button>
                                 </Grid>
                             </Grid>
+                            
                         </Grid>
+                        <Grid Grid.Column="1">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition >
+                                </RowDefinition >
+                                <RowDefinition Height="30">
+                                </RowDefinition>
+                                <RowDefinition>
+                                </RowDefinition>
+                                <RowDefinition >
+                                </RowDefinition>
+                                <RowDefinition >
+                                </RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0">
+                                <Label Content="Добро пожаловать !" Foreground="White" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    
+                                </Label>
+                                
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <Label Content="Чтобы войти в магазин , войдите в личный кабинет." Foreground="White" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                                </Label>
+                            </Grid>
+                            <Grid Margin="15" Grid.Row="2" Background="#FF181E49">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="40" >
+                                    </RowDefinition >
+                                    <RowDefinition >
+                                    </RowDefinition>
+                                   
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Label Content="Логин" Foreground="White" FontSize="28" >
+
+                                    </Label>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <TextBox Name="txtUsername" Height="50" FontSize="30" Foreground="White"></TextBox>
+
+                                </Grid>
+                            </Grid>
+                            <Grid Margin="15" Grid.Row="3" Background="#FF181E49">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="40" >
+                                    </RowDefinition >
+                                    <RowDefinition >
+                                    </RowDefinition>
+
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Label Content="Пороль" Foreground="White" FontSize="28" >
+
+                                    </Label>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <PasswordBox Name="txtpassword"  FontSize="30" Height="50" Foreground="White"></PasswordBox>
+
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="4">
+                                <Button  Background="#FF0F0C6C" x:Name="vhodButton" Content="вход" FontSize="20"  IsDefault="True" Width="500" Height="80" Click="vhodButton_Click" Cursor="Hand" >
+
+                                    <Button.Resources>
+                                        <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                                            <Style.Resources>
+                                                <Style TargetType="{x:Type Border}">
+                                                    <Setter Property="CornerRadius" Value="20" />
+                                                </Style>
+                                            </Style.Resources>
+                                        </Style>
+                                    </Button.Resources>
+
+
+                                    <Button.Effect>
+                                        <DropShadowEffect BlurRadius="25" ShadowDepth="0" Color="Blue"/>
+                                    </Button.Effect>
+                                </Button>
+                            </Grid>
+                        </Grid>
+                       
                     </Grid>
                 </Border>
                  

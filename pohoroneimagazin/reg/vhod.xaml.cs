@@ -23,5 +23,15 @@ namespace pohoroneimagazin.reg
         {
             InitializeComponent();
         }
+
+        private void regButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void vhodButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
