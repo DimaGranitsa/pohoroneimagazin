@@ -24,5 +24,13 @@ namespace pohoroneimagazin.bd
             var collection = database.GetCollection<avtorizatia>("auth");
             return collection.Find(x => true).ToList();
         }
+        public static List<regnov> regnovs()
+        {
+            var auth = new MongoClient("mongodb://localhost");
+            var database = auth.GetDatabase("shop");
+            var collection = database.GetCollection<regnov>("regnov1");
+
+           return collection.Find(x => true).ToList();
+        }
     }
 }

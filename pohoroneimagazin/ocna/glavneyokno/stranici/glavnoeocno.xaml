@@ -56,36 +56,6 @@
                                         Text="Корзина" 
                                         FontSize="18" Height="26"/>
                     </Button>
-                    <Button 
-                                         x:Name="registraciaButton" 
-                                          Margin="15"
-                                         Width="110" 
-                                         Click="registraciaButton_Click" 
-                                         Style="{StaticResource MaterialDesignRaisedDarkButton}" 
-                                         Height="50" 
-                                         material:ButtonAssist.CornerRadius="25" 
-                                         ToolTip="MaterialDesignRaisedDarkButton with Round Corners" 
-                                         IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" 
-                                         Background="#FF0F0C6C" Cursor="Hand">
-                        <TextBlock   HorizontalAlignment="Center" 
-                                        Text="вход" 
-                                        FontSize="18" Height="26"/>
-                    </Button>
-                    <Button 
-                                         x:Name="loginButton" 
-                                          Margin="15"
-                                         Width="220" 
-                                         Click="loginButton_Click" 
-                                         Style="{StaticResource MaterialDesignRaisedDarkButton}" 
-                                         Height="50" 
-                                         material:ButtonAssist.CornerRadius="25" 
-                                         ToolTip="MaterialDesignRaisedDarkButton with Round Corners" 
-                                         IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}" 
-                                         Background="#FF0F0C6C" Cursor="Hand">
-                        <TextBlock   HorizontalAlignment="Center" 
-                                        Text="регистрация" 
-                                        FontSize="18" Height="26"/>
-                    </Button>
                 </StackPanel>
             </Border>
         </Grid>

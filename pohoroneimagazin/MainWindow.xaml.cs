@@ -23,7 +23,7 @@ namespace pohoroneimagazin
         public MainWindow()
         {
             InitializeComponent();
-            qwerty.Navigate(new ocna.glavneyokno.stranici.glavnoeocno());
+            qwerty.Navigate(new reg.vhod());
         }
 
         private void qwerty_Navigated(object sender, NavigationEventArgs e)

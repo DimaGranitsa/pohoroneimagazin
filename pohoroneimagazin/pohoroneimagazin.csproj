@@ -149,6 +149,7 @@
     <Compile Include="bd\avtorizatia.cs" />
     <Compile Include="bd\cenapamatnika.cs" />
     <Compile Include="bd\DataBaseMethods.cs" />
+    <Compile Include="bd\regnov.cs" />
     <Compile Include="ocna\adres\adres.xaml.cs">
       <DependentUpon>adres.xaml</DependentUpon>
     </Compile>
@@ -229,6 +230,9 @@
     </Compile>
     <Compile Include="reg\reg.xaml.cs">
       <DependentUpon>reg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="reg\regnofai.xaml.cs">
+      <DependentUpon>regnofai.xaml</DependentUpon>
     </Compile>
     <Compile Include="reg\vhod.xaml.cs">
       <DependentUpon>vhod.xaml</DependentUpon>
@@ -357,6 +361,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="reg\reg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="reg\regnofai.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
