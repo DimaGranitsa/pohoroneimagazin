@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:pohoroneimagazin.reg"
         mc:Ignorable="d"
         Title="vhod" Height="800" Width="1300">
-    <Grid >
+    <Grid  >
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black"/>
@@ -128,7 +128,7 @@
 
                                 </Grid.RowDefinitions>
                                 <Grid Grid.Row="0">
-                                    <Label Content="Пороль" Foreground="White" FontSize="28" >
+                                    <Label Content="Пароль" Foreground="White" FontSize="28" >
 
                                     </Label>
                                 </Grid>
@@ -159,10 +159,16 @@
                         </Grid>
                        
                     </Grid>
+                    
                 </Border>
                  
                           </Grid>
-           
+
+
+            
         </Grid>
+        <Button Click="bezvvoda_Click" Name="bezvvoda" VerticalAlignment="Top" Height="60" Content="вы можете посмотреть товар но покупать не сможите для этого нужно зарегистрироваться" FontSize="20" Foreground="White" Background="Black">
+
+        </Button>
     </Grid>
 </Page>

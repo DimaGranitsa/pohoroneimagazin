@@ -5,8 +5,97 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:pohoroneimagazin.reg"
         mc:Ignorable="d"
-        Title="reg" Height="450" Width="800">
+        Title="reg" Height="400" Width="400">
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF181E4A" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition>
+                </RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+                <RowDefinition  >
+                </RowDefinition>
+                <RowDefinition  >
+                </RowDefinition>
+            </Grid.RowDefinitions>
+            <!--<Grid.ColumnDefinitions>
+                <ColumnDefinition>
+                </ColumnDefinition>
+                <ColumnDefinition>
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>-->
+            <Grid Grid.Row="0">
+                <Label Content="Зарегистрируйтесь" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White">
+
+                </Label>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45">
+                    </RowDefinition>
+                    <RowDefinition>
+                    </RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label Content="Логин" FontSize="30"  Foreground="White">
+
+                    </Label>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <TextBox x:Name="txtUsername"  FontSize="30" Foreground="White"></TextBox>
+
+                </Grid>
+
+
+
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45">
+                    </RowDefinition>
+                    <RowDefinition>
+                    </RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label Content="Пароль " FontSize="30"  Foreground="White">
+
+                    </Label>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <PasswordBox Name="txtpassword"   FontSize="30" Foreground="White"></PasswordBox>
+
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Button  Background="#FF0F0C6C" x:Name="regButton" Content="все успешно" FontSize="20"  IsDefault="True" Width="300" Height="50" Click="regButton_Click" Cursor="Hand" >
+
+                    <Button.Resources>
+                        <Style TargetType="{x:Type Button}" x:Key="RoundButton">
+                            <Style.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="20" />
+                                </Style>
+                            </Style.Resources>
+                        </Style>
+                    </Button.Resources>
+
+
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="25" ShadowDepth="0" Color="Blue"/>
+                    </Button.Effect>
+                </Button>
+            </Grid>
+        </Grid>
+
+
+
     </Grid>
 </Window>

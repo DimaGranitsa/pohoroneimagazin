@@ -27,8 +27,8 @@ namespace pohoroneimagazin.reg
 
         private void regButton_Click(object sender, RoutedEventArgs e)
         {
-            regnofai reg1 = new regnofai();
-            reg1.Show();
+            reg reg = new reg();
+            reg.Show();
         }
 
         private void vhodButton_Click(object sender, RoutedEventArgs e)
@@ -37,17 +37,28 @@ namespace pohoroneimagazin.reg
             if (a != null)
             {
                 //var b = a.name.FirstOrDefault();
-                if (a.login == "1")
+                if (a.login == txtUsername.Text)
                 {
                     MessageBox.Show($"Добро пожаловать {a.login}", "Вход в личные кабинет", MessageBoxButton.OK, MessageBoxImage.Information);
-
+NavigationService.Navigate(new ocna.glavneyokno.stranici.glavnoeocno());
                 }
             }
             else
             {
-                MessageBox.Show($"Логин и пароль не верный!", "Вход в личный кабинет", MessageBoxButton.OK, MessageBoxImage.Information);
+                if (a.password == txtpassword.Password)
+                {
+                    MessageBox.Show($"Логин и пароль не верный!", "Вход в личный кабинет", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
             }
-            NavigationService.Navigate(new ocna.glavneyokno.stranici.glavnoeocno());
+
+
+
+
+        }
+
+        private void bezvvoda_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new ocna.uslugi.Glavnaustranitsauslug());
         }
     }
     

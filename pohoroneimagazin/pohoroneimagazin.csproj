@@ -231,14 +231,8 @@
     <Compile Include="reg\reg.xaml.cs">
       <DependentUpon>reg.xaml</DependentUpon>
     </Compile>
-    <Compile Include="reg\regnofai.xaml.cs">
-      <DependentUpon>regnofai.xaml</DependentUpon>
-    </Compile>
     <Compile Include="reg\vhod.xaml.cs">
       <DependentUpon>vhod.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="reg\регистрация .xaml.cs">
-      <DependentUpon>регистрация .xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -357,22 +351,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="reg\avtorizacia.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="reg\reg.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="reg\regnofai.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="reg\vhod.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="reg\регистрация .xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -532,6 +518,7 @@
     <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
     <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />
     <Content Include="mongocrypt.dll" />
+    <Resource Include="ocna\icon\cross.png" />
     <Resource Include="ocna\logo\вход.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

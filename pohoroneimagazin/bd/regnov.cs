@@ -10,18 +10,19 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace pohoroneimagazin.bd
 {
-    internal class regnov
+    internal class regnov 
     {
         [BsonId]
         [BsonIgnoreIfDefault]
-        public ObjectId _login;
-        public ObjectId _password;
+        ObjectId _id;
 
-        public regnov(ObjectId login, ObjectId password)
+        public regnov( string login, string password)
         {
-            _login = login;
-            _password = password;
+          
+            this.login = login;
+            this.password = password;
         }
+
         public string login { get; set; }
         public string password { get; set; }
     }

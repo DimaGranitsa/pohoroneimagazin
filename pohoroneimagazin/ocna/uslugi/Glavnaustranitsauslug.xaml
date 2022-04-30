@@ -226,7 +226,7 @@
                         </StackPanel>
                     </Grid>
                     <Grid Grid.Row="2" >
-                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr3Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="vaborrazmerov3Button_Click" Cursor="Hand" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr3Button" Content="Омовение"  IsDefault="True" Width="200" Height="40" Click="vaborrazmerov3Button_Click" Cursor="Hand" >
 
                             <Button.Resources>
                                 <Style TargetType="{x:Type Button}" x:Key="RoundButton">
@@ -278,7 +278,7 @@
                         </StackPanel>
                     </Grid>
                     <Grid Grid.Row="2" >
-                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr4Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="podrobnie4Button_Click" Cursor="Hand" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr4Button" Content="Погребение"  IsDefault="True" Width="200" Height="40" Click="podrobnie4Button_Click" Cursor="Hand" >
 
                             <Button.Resources>
                                 <Style TargetType="{x:Type Button}" x:Key="RoundButton">
@@ -331,7 +331,7 @@
                         </StackPanel>
                     </Grid>
                     <Grid Grid.Row="2" >
-                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr5Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="podrobnie5Button_Click" Cursor="Hand" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr5Button" Content="Установка памятников"  IsDefault="True" Width="200" Height="40" Click="podrobnie5Button_Click" Cursor="Hand" >
 
                             <Button.Resources>
                                 <Style TargetType="{x:Type Button}" x:Key="RoundButton">
@@ -381,7 +381,7 @@
                         </StackPanel>
                     </Grid>
                     <Grid Grid.Row="2" >
-                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr6Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="pamatnikcprosmotr6Button_Click" Cursor="Hand" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr6Button" Content="Гробы"  IsDefault="True" Width="200" Height="40" Click="pamatnikcprosmotr6Button_Click" Cursor="Hand" >
 
                             <Button.Resources>
                                 <Style TargetType="{x:Type Button}" x:Key="RoundButton">
@@ -434,7 +434,7 @@
                         </StackPanel>
                     </Grid>
                     <Grid Grid.Row="2" >
-                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr7Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="podrobnie7Button_Click" Cursor="Hand" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr7Button" Content="Услуги священо служителя"  IsDefault="True" Width="200" Height="40" Click="podrobnie7Button_Click" Cursor="Hand" >
 
                             <Button.Resources>
                                 <Style TargetType="{x:Type Button}" x:Key="RoundButton">
@@ -491,7 +491,7 @@
                         </StackPanel>
                     </Grid>
                     <Grid Grid.Row="2" >
-                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr8Button" Content="Памятники"  IsDefault="True" Width="200" Height="40" Click="podrobnie8Button_Click_1" Cursor="Hand" >
+                        <Button  Background="#FF0F0C6C" x:Name="pamatnikcprosmotr8Button" Content="Кремация"  IsDefault="True" Width="200" Height="40" Click="podrobnie8Button_Click_1" Cursor="Hand" >
 
                             <Button.Resources>
                                 <Style TargetType="{x:Type Button}" x:Key="RoundButton">

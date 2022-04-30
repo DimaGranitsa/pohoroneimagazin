@@ -27,7 +27,7 @@ namespace pohoroneimagazin.ocna.tovars
 
         private void karzina1Button_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new ocna.tovars.graob1.grob1());
         }
 
         private void karzina2Button_Click(object sender, RoutedEventArgs e)

@@ -10,15 +10,14 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace pohoroneimagazin.bd
 {
-    internal class avtorizatia
+    internal class avtorizatia 
     {
         [BsonId]
         [BsonIgnoreIfDefault]
         public ObjectId _id;
 
-        public avtorizatia(ObjectId id, string login, string password)
+        public avtorizatia( string login, string password)
         {
-            _id = id;
             this.login = login;
             this.password = password;
         }

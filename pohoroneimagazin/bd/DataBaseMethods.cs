@@ -17,20 +17,19 @@ namespace pohoroneimagazin.bd
             var collection = database.GetCollection<cenapamatnika>("cena");
             return collection.Find(x => true).ToList();
         }
-        public static List<avtorizatia> Authorizations()
-        {
-            var auth = new MongoClient("mongodb://localhost");
-            var database = auth.GetDatabase("shop");
-            var collection = database.GetCollection<avtorizatia>("auth");
-            return collection.Find(x => true).ToList();
-        }
-        public static List<regnov> regnovs()
+        public static List<regnov> Authorizations()
         {
             var auth = new MongoClient("mongodb://localhost");
             var database = auth.GetDatabase("shop");
             var collection = database.GetCollection<regnov>("regnov1");
-
-           return collection.Find(x => true).ToList() ; 
+            return collection.Find(x => true).ToList();
+        }
+        public static void AddClientToDatabase(regnov regnov)
+        {
+            var client = new MongoClient("mongodb://localhost");
+            var database = client.GetDatabase("shop");
+            var collection = database.GetCollection<bd.regnov>("regnov1");
+            collection.InsertOne(regnov);
         }
     }
 }

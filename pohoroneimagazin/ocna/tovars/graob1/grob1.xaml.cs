@@ -24,5 +24,10 @@ namespace pohoroneimagazin.ocna.tovars.graob1
         {
             InitializeComponent();
         }
+
+        private void gravirovcaprosmotrButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

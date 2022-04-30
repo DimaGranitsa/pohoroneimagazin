@@ -7,10 +7,11 @@
         xmlns:local="clr-namespace:pohoroneimagazin"
         
         mc:Ignorable="d"
-        
-        Title="MainWindow" Height="800" Width="1300"  >
+        Icon="F:\lflflfl — копия\pohoroneimagazin\pohoroneimagazin\ocna\icon\cross.png "
+
+        Title="Похоронный Дом " Height="800" Width="1300"  >
     
     <Grid>
-        <Frame Name="qwerty" Navigated="qwerty_Navigated"/>
+        <Frame Name="qwerty" Navigated="qwerty_Navigated" Height="800" Width="1300"  />
     </Grid>
 </Window>

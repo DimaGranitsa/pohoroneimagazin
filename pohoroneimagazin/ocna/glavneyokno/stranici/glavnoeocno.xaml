@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:pohoroneimagazin.ocna.glavneyokno.stranici"
       mc:Ignorable="d" 
-      d:DesignHeight="800" d:DesignWidth="1500" Background="Gray"
+      d:DesignHeight="800" d:DesignWidth="1300" Background="Gray"
       Title="glavnoeocno"
       xmlns:material="http://materialdesigninxaml.net/winfx/xaml/themes">
 
@@ -33,7 +33,6 @@
 
             <Border BorderThickness="1" CornerRadius="20">
                 <StackPanel  Orientation="Horizontal" Background="White">
-                    <Button  Background="#FF0F0C6C" x:Name="glavnaButton" Content="Главная"  IsDefault="True" Width="250" Height="50" Margin="10"  />
                     <Button   Background="#FF0F0C6C" x:Name="uslugiButton" Content="Услуги"  IsDefault="True" Width="100" Height="50" Margin="10" Click="uslugiButton_Click"/>
                     <Button  Background="#FF0F0C6C" x:Name="ocompaniiButton" Content="О компании"  IsDefault="True" Width="120" Height="50" Margin="10" Click="ocompaniiButton_Click"/>
                     <Button   Background="#FF0F0C6C" x:Name="adresaaButton" Content="адрес компании"  IsDefault="True" Width="140" Height="50" Margin="10" Click="adresaaButton_Click" Cursor="Hand"/>
@@ -46,7 +45,7 @@
                                           Margin="10"
                                          Width="110" 
                                          Click="korzinaButton_Click" 
-                                         Style="{StaticResource MaterialDesignRaisedDarkButton}" 
+                                         
                                          Height="50" 
                                          material:ButtonAssist.CornerRadius="25" 
                                          ToolTip="MaterialDesignRaisedDarkButton with Round Corners" 

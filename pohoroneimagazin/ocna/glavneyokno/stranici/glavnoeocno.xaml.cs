@@ -27,12 +27,12 @@ namespace pohoroneimagazin.ocna.glavneyokno.stranici
 
         private void registraciaButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new reg.регистрация());
+          
         }
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new reg.avtorizacia());
+           
         }
 
         private void pamatnikcprosmotrButton_Click(object sender, RoutedEventArgs e)

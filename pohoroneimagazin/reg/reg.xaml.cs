@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using pohoroneimagazin.bd;
 
 namespace pohoroneimagazin.reg
 {
@@ -23,5 +24,25 @@ namespace pohoroneimagazin.reg
         {
             InitializeComponent();
         }
+
+        private void regButton_Click(object sender, RoutedEventArgs e)
+        {
+
+           DataBaseMethods.AddClientToDatabase(new regnov(txtUsername.Text, txtpassword.Password));
+
+
+
+
+
+
+
+
+
+
+
+            
+          
+        }
     }
 }
+ 
